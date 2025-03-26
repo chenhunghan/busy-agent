@@ -12,4 +12,4 @@ RUN npm install
 COPY . .
 
 # Run the application
-CMD ["tsx", "index.ts"]
+CMD ["npm", "run", "start"]
